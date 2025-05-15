@@ -1,0 +1,92 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #1e1e2f;;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.modal-pago {
+  background-color: #333;
+  color: white;
+  padding: 30px;
+  border-radius: 10px;
+  width: 600px;
+  display: flex;
+  gap: 20px;
+}
+
+.info-tienda {
+  flex: 1;
+  text-align: center;
+}
+
+.logo-tienda {
+  width: 120px;
+  height: 120px;
+  background-color: #666; /* Opcional */
+  border-radius: 50%;
+  margin: 0 auto 15px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+}
+
+.logo-tienda img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+
+.info-tienda p {
+  font-size: 12px;
+  line-height: 1.5;
+}
+
+.formulario-pago {
+  flex: 2;
+}
+
+.grupo-campo {
+  margin-bottom: 15px;
+}
+
+.grupo-campo label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+.grupo-campo input {
+  width: 90%;
+  padding: 8px;
+  border-radius: 6px;
+  border: none;
+}
+
+.fila-campos {
+  display: flex;
+  gap: 10px;
+}
+
+.campo-mitad {
+  flex: 1;
+}
+
+.acciones-formulario {
+  text-align: right;
+  margin-top: 10px;
+}
+
+.acciones-formulario button {
+  background-color: #eee;
+  padding: 10px 20px;
+  border-radius: 6px;
+  border: none;
+  cursor: pointer;
+  font-weight: bold;
+}
