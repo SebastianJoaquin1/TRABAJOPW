@@ -1,9 +1,7 @@
-
-    const form = document.getElementById("formulario-pago");
     const mensajeDiv = document.getElementById("mensaje-error");
+    const btnPagar = document.getElementById("btn-pagar");
 
-    form.addEventListener("submit", function (e) {
-    e.preventDefault(); 
+    btnPagar.addEventListener("click", function () {
 
     const nombre = document.getElementById("nombre").value.trim();
     const direccion = document.getElementById("direccion").value.trim();
@@ -41,6 +39,5 @@
     mensajeDiv.className = "alert alert-success";
     mensajeDiv.innerText = "Pago procesado correctamente. ✅";
 
-    form.reset();
+    window.location.href = "Pantalla13.html";
   });
-
